@@ -1,1 +1,1 @@
-https://api-app-bice.vercel.app/
+https://movie-app-bay-mu.vercel.app/
