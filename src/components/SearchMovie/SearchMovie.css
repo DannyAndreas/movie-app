@@ -1,0 +1,8 @@
+.movies-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}

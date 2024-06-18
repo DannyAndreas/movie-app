@@ -1,0 +1,23 @@
+.App {
+  color: black;
+  text-align: center;
+}
+.movies-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
+
+h5 {
+  color: black;
+}
+h6 {
+  color: black;
+}
+
+.ant-tabs-nav-wrap {
+  display: grid !important;
+  justify-items: center !important;
+}
