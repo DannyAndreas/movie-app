@@ -6,7 +6,8 @@ import AppHeader from '../header/Header'
 import RatedMovie from '../RatedMovie/RatedMovie'
 import SearchMovie from '../SearchMovie/SearchMovie'
 import './App.css'
-
+// eslint-disable-next-line no-undef
+const API_KEY = process.env.REACT_APP_API_KEY
 const App = () => {
   const [searched, setSearched] = useState([])
   const [rated, setRated] = useState([])
@@ -26,7 +27,7 @@ const App = () => {
     try {
       const response = await axios.get('https://api.themoviedb.org/3/authentication/guest_session/new', {
         params: {
-          api_key: '2df853cca9564fc42c03e17acd17b1f8'
+          api_key: API_KEY
         }
       })
       if (response.data.success) {

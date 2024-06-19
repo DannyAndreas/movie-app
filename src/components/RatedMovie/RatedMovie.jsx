@@ -43,7 +43,8 @@ const RatedMovie = () => {
     backgroundColor: '#4096ff'
   }
 
-  const API_KEY = '2df853cca9564fc42c03e17acd17b1f8'
+  // eslint-disable-next-line no-undef
+  const API_KEY = process.env.REACT_APP_API_KEY
 
   const fetchRatedMovies = async () => {
     try {
